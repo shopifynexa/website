@@ -1906,16 +1906,12 @@ footer {
   border-bottom: 1px solid rgba(255, 255, 255, .1);
 }
 
-.footer-brand-logo {
-  display: flex;
-  align-items: center;
-  gap: 10px;
+.footer-brand-logo img {
   margin-bottom: 20px;
-  font-family: var(--f-display);
-  font-weight: 600;
-  font-size: 1.1rem;
-  color: #fff;
+  width: auto;
+  height: 50px;
 }
+
 
 .footer-brand p {
   color: rgba(255, 255, 255, .5);
