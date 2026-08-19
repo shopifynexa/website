@@ -1909,13 +1909,13 @@ footer {
 .footer-brand-logo img {
   margin-bottom: 20px;
   width: auto;
-  height: 50px;
+  height: 40px;
 }
 
 
 .footer-brand p {
   color: rgba(255, 255, 255, .5);
-  font-size: 0.9rem;
+  font-size: 13px;
   line-height: 1.65;
   max-width: 300px;
 }
@@ -2123,8 +2123,9 @@ footer {
   }
 
   .footer-grid {
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr;
     gap: 40px;
+    padding-bottom: 10px;
   }
 
   .footer-brand {
@@ -2145,6 +2146,13 @@ footer {
 
   .float-val {
     font-size: .88rem;
+  }
+  footer{
+    padding-top: 50px;
+  }
+
+  .footer-bottom {
+    justify-content: center;
   }
 }
 
